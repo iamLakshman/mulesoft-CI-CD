@@ -34,9 +34,9 @@
 					<cloudHubDeployment>
 	                        <uri>https://anypoint.mulesoft.com</uri>
 	                        <muleVersion>4.3.0</muleVersion>
-	                        <username>iamlaxman</username>
+	                        <username>melaxman</username>
 	                        <password>Laxman123</password>
-	                        <applicationName>mule-ci-cd</applicationName>
+	                        <applicationName>mule-ci-cd-api</applicationName>
 	                        <environment>Sandbox</environment>
 	                        <workerType>MICRO</workerType>
 	                        <objectStoreV2>true</objectStoreV2>
