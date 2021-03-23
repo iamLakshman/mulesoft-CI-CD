@@ -6,7 +6,7 @@
 http://www.mulesoft.org/schema/mule/http http://www.mulesoft.org/schema/mule/http/current/mule-http.xsd
 http://www.mulesoft.org/schema/mule/ee/core http://www.mulesoft.org/schema/mule/ee/core/current/mule-ee.xsd">
 	<http:listener-config name="HTTP_Listener_config" doc:name="HTTP Listener config" doc:id="efacbf12-06dd-456e-980b-e777e8d63b21" >
-		<http:listener-connection host="0.0.0.0" port="8086" />
+		<http:listener-connection host="0.0.0.0" port="8082" />
 	</http:listener-config>
 	<flow name="mule-ci-cdFlow" doc:id="c7ff996f-9570-4c79-bde5-a57f813cf645" >
 		<http:listener doc:name="Listener" doc:id="90da07ab-89f8-4929-b00a-5076876ca623" config-ref="HTTP_Listener_config" path="/ci-cd"/>
